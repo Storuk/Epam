@@ -1,6 +1,6 @@
 package com.epam;
 
-public class Utils {
+public class Utils extends StringUtils {
     public static boolean isAllPositiveNumbers(String... str) {
         if (str.length > 0) {
             boolean flag = false;
